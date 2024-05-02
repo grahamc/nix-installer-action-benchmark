@@ -24,7 +24,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@main
-      - uses: DeterminateSystems/nix-installer-action@detsys-ts
+      - uses: DeterminateSystems/nix-installer-action@main
         with:
           nix-installer-pr: 897
   benchmark-nixbuild:
